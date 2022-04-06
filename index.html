@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<button id="hamburger" class="hamburger">
+					<i class="fa fa-bars"></i>
+				</button>
+				<h3>Pari<span class="white">sian</span><span class="red"> Tour</span></h3>
+				<ul id="nav-ul" class="nav-ul">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Explore</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="wrapper">
+				<h5>The City of Love</h5>
+				<h1>Discover One of the Big 4</h1>
+				<h3>of</h3>
+				<h1>The City of Mode</h1>
+				<button>
+					<i class="fa fa-calendar"></i>
+				</button>
+					<p>Book Now!</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footer-wrapper">
+				<h5>The Romantic</h5>
+				<h3>Paris, France</h3>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		const hamburger = document.getElementById('hamburger');
+		const navUL = document.getElementById('nav-ul');
+
+		hamburger.addEventListener('click', () => {
+			navUL.classList.toggle('show');
+		})
+	</script>
+</body>
+</html>
