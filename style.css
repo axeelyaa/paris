@@ -218,7 +218,7 @@ footer{
 	.wrapper{
 		margin-top: -30px;
 		text-align: center;
-		width: 60%;
+		width: 85%;
 	}
 	.wrapper h1{
 		font-size: 15px;
@@ -233,12 +233,9 @@ footer{
 	}
 	.footer-wrapper{
 		text-align: center;
-		width: 40%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		width: 65%;
 		position: absolute;
-		bottom: 175px;
-		left: 115px;
+		bottom: 260px;
+		left: 65px;
 	}
 }
